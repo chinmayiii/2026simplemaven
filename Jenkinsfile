@@ -22,6 +22,7 @@ pipeline{
     stage('Run Application'){
       steps{
         sh 'java -jar target/2026simplemaven-1.0-SNAPSHOT.jar'
+
       }
     }
   }
